@@ -175,6 +175,7 @@ customer_churn_prediction/
 ## Open Notebook in Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/Soumensun/HCL/blob/main/Hackathon_HCLTECH%20(1).ipynb
+https://colab.research.google.com/github/Soumensun/HCL/blob/main/FINALHackathon_HCLTECH.ipynb
 )
+
 
