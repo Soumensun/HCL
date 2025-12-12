@@ -172,9 +172,10 @@ customer_churn_prediction/
 ├── requirements.txt
 
 
-## Open Notebook in Google Colab
+## 5.Open Notebook in Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Soumensun/HCL/blob/main/FINALHackathon_HCLTECH.ipynb)
 
 ## Outputs
 ![Prediction Comparison](images/All%20Model%20Prediction.png)
+
