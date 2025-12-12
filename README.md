@@ -4,8 +4,6 @@ _Logistic Regression • Random Forest • XGBoost • Optuna • Stacking Ensem
 This project builds a complete Machine Learning system to predict **customer churn** for a telecom company.  
 It includes **EDA → preprocessing → imbalance handling → model training → hyperparameter tuning → ensemble learning → evaluation → deployment via Streamlit**.
 
----
-
 ##  1. Dataset Details (telecom_churn.csv)
 
 ### What is churn?
@@ -198,5 +196,6 @@ This project demonstrates expertise in:
 - Real-world deployment  
 
 ---
+
 
 
