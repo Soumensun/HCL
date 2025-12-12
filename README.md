@@ -23,7 +23,7 @@ Goal: Predict whether a customer will churn (`1`) or stay (`0`).
 - Churn = 1 → 483  
 ⮕ Only **14.5% churners** → dataset is **imbalanced**.
 
-##  2. Why Logistic Regression (Not Linear Regression)
+##  2. Why Logistic Regression 
 Logistic Regression models the probability:
 
 \[
@@ -166,6 +166,7 @@ This project demonstrates expertise in:
 - Hyperparameter tuning  
 - Ensemble methods  
 - Real-world deployment  
+
 
 
 
