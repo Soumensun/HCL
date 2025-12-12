@@ -23,8 +23,6 @@ Goal: Predict whether a customer will churn (`1`) or stay (`0`).
 - Churn = 1 → 483  
 ⮕ Only **14.5% churners** → dataset is **imbalanced**.
 
----
-
 ##  2. Why Logistic Regression (Not Linear Regression)
 Logistic Regression models the probability:
 
@@ -34,15 +32,11 @@ P(y=1|x) = \frac{1}{1 + e^{-(w^Tx + b)}}
 
 It is ideal for **binary classification**, unlike Linear Regression which predicts continuous values.
 
----
-
 ##  3. ML Workflow (Pipeline)
 
 ### **Step 1 — Data Loading**
 Handled by `data_loading.py`  
 Ensures correct columns and clean structure.
-
----
 
 ### **Step 2 — Preprocessing**
 Performed in `preprocessing.py`:
@@ -52,8 +46,6 @@ Performed in `preprocessing.py`:
 
 Scaling is crucial for algorithms like Logistic Regression.
 
----
-
 ### **Step 3 — Exploratory Data Analysis (EDA)**
 In `eda.py`, we analyze:
 - Feature distributions  
@@ -61,15 +53,11 @@ In `eda.py`, we analyze:
 - Outliers  
 - Customer behavior patterns  
 
----
-
 ### **Step 4 — Handling Class Imbalance (SMOTE)**  
 Why SMOTE?
 - Prevents model from being biased toward majority class  
 - Generates synthetic minority samples  
 - Improves recall for churners  
-
----
 
 ##  4. Ensemble Learning 
 
@@ -97,8 +85,6 @@ Uses:
 
 The meta-model **learns how much to trust each base model**, giving the stacking model superior performance.
 
----
-
 ##  5. Hyperparameter Tuning (Optuna)
 
 Optuna was used for:
@@ -112,9 +98,6 @@ RMSE = 0.2873
 MAE = 0.1380
 R2 = 0.3360
 
-
----
-
 ##  6. Baseline Model Performance
 
 Logistic Regression: RMSE=0.3884, MAE=0.2926, R2=-0.2139
@@ -123,25 +106,18 @@ XGBoost: RMSE=0.2982, MAE=0.1251, R2=0.2846
 Lasso: RMSE=0.5000
 Ridge: RMSE=0.4054
 
-
----
-
 ##  7. Model Comparison (Visual Outputs)
 
 ### **Predictions vs Actuals**
 ![Prediction Comparison](images/All%20Model%20Prediction.png)
 
----
-
 ### **RMSE Comparison**
 ![RMSE Comparison](images/All%20Model%20Losses.png)
 
----
 
 ### **Confusion Matrix & Metrics**
 ![Confusion Matrix](images/Matrices.png)
 
----
 
 ##  8. Streamlit App (Deployment Preview)
 
@@ -149,7 +125,6 @@ A simple UI for entering customer features and getting a churn prediction.
 
 ![Streamlit UI](images/Predict1.png)
 
----
 
 ##  9. Project Structure
 HCL/
@@ -168,15 +143,12 @@ HCL/
 └── requirements.txt
 
 
----
-
 ##  10. Open Notebook in Google Colab
 
 Click below to view the full notebook:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Soumensun/HCL/blob/main/FINALHackathon_HCLTECH.ipynb)
 
----
 
 ##  11. Summary
 
@@ -195,7 +167,6 @@ This project demonstrates expertise in:
 - Ensemble methods  
 - Real-world deployment  
 
----
 
 
 
