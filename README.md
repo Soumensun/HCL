@@ -152,12 +152,12 @@ Click below to view the full notebook:
 
 ##  11. Summary
 
-✔ Addressed data imbalance with SMOTE  
-✔ Performed comprehensive EDA  
-✔ Tuned models using Optuna  
-✔ Compared Logistic Regression, RF, XGB, Stacking  
-✔ Best performance from **Stacking Ensemble**  
-✔ Deployed model using **Streamlit**  
+ Addressed data imbalance with SMOTE  
+ Performed comprehensive EDA  
+ Tuned models using Optuna  
+ Compared Logistic Regression, RF, XGB, Stacking  
+ Best performance from **Stacking Ensemble**  
+ Deployed model using **Streamlit**  
 
 This project demonstrates expertise in:
 - Machine Learning  
@@ -166,6 +166,7 @@ This project demonstrates expertise in:
 - Hyperparameter tuning  
 - Ensemble methods  
 - Real-world deployment  
+
 
 
 
