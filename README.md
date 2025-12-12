@@ -6,7 +6,7 @@ It includes **EDA → preprocessing → imbalance handling → model training �
 
 ---
 
-## 📌 1. Dataset Details (telecom_churn.csv)
+##  1. Dataset Details (telecom_churn.csv)
 
 ### What is churn?
 A customer is considered "churned" when they stop using the service.  
@@ -27,7 +27,7 @@ Goal: Predict whether a customer will churn (`1`) or stay (`0`).
 
 ---
 
-## 📌 2. Why Logistic Regression (Not Linear Regression)
+##  2. Why Logistic Regression (Not Linear Regression)
 Logistic Regression models the probability:
 
 \[
@@ -38,7 +38,7 @@ It is ideal for **binary classification**, unlike Linear Regression which predic
 
 ---
 
-## 📌 3. ML Workflow (Pipeline)
+##  3. ML Workflow (Pipeline)
 
 ### **Step 1 — Data Loading**
 Handled by `data_loading.py`  
@@ -73,7 +73,7 @@ Why SMOTE?
 
 ---
 
-## 📌 4. Ensemble Learning (Very Important)
+##  4. Ensemble Learning 
 
 To improve model robustness, we trained multiple models:
 
@@ -101,7 +101,7 @@ The meta-model **learns how much to trust each base model**, giving the stacking
 
 ---
 
-## 📌 5. Hyperparameter Tuning (Optuna)
+##  5. Hyperparameter Tuning (Optuna)
 
 Optuna was used for:
 - Searching best `max_depth`, `learning_rate`, `n_estimators`
@@ -117,7 +117,7 @@ R2 = 0.3360
 
 ---
 
-## 📌 6. Baseline Model Performance
+##  6. Baseline Model Performance
 
 Logistic Regression: RMSE=0.3884, MAE=0.2926, R2=-0.2139
 Random Forest: RMSE=0.2929, MAE=0.1759, R2=0.3099
@@ -128,7 +128,7 @@ Ridge: RMSE=0.4054
 
 ---
 
-## 📌 7. Model Comparison (Visual Outputs)
+##  7. Model Comparison (Visual Outputs)
 
 ### **Predictions vs Actuals**
 ![Prediction Comparison](images/All%20Model%20Prediction.png)
@@ -145,7 +145,7 @@ Ridge: RMSE=0.4054
 
 ---
 
-## 📌 8. Streamlit App (Deployment Preview)
+##  8. Streamlit App (Deployment Preview)
 
 A simple UI for entering customer features and getting a churn prediction.
 
@@ -153,7 +153,7 @@ A simple UI for entering customer features and getting a churn prediction.
 
 ---
 
-## 📌 9. Project Structure
+##  9. Project Structure
 HCL/
 ├── data_loading.py
 ├── preprocessing.py
@@ -172,7 +172,7 @@ HCL/
 
 ---
 
-## 📌 10. Open Notebook in Google Colab
+##  10. Open Notebook in Google Colab
 
 Click below to view the full notebook:
 
@@ -180,7 +180,7 @@ Click below to view the full notebook:
 
 ---
 
-## 📌 11. Summary
+##  11. Summary
 
 ✔ Addressed data imbalance with SMOTE  
 ✔ Performed comprehensive EDA  
@@ -198,4 +198,5 @@ This project demonstrates expertise in:
 - Real-world deployment  
 
 ---
+
 
